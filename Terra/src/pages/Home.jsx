@@ -11,7 +11,7 @@ const Home = () => {
         </div>
 
         {/* center hero text */}
-        <div className='text-black w-[70%] mx-auto bg-white mt-[5%]'>
+        <div className='text-white w-[65%] mx-auto mt-[5%] rounded-4xl shadow-md glass'>
             <div className='text-center p-4'>
                 <h1 className='text-5xl'>Welcome to <span>Terra</span>.</h1>
                 <p className='p-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum incidunt debitis praesentium 
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
 
             {/* accordian */}
-            <div className="accordion mx-auto pt-[10%]">
+            <div className="accordion mx-auto pt-[5%] pb-[5%]">
               {accordianData.map(({ title, message, id, number }) => (
                 <Accordian
                   title={title}

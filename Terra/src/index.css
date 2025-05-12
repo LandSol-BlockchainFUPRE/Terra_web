@@ -27,6 +27,7 @@ body{
 }
 
 .accordion-title {
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,7 +42,8 @@ body{
 
 .accordion-title,
 .accordion-content {
-  padding: 0.4rem;
+  padding: 0.6rem;
+  color: black;
 }
 
 .accordion-content {
@@ -57,4 +59,16 @@ body{
   .accordion {
     width: 100%;
   }
+}
+
+
+.glass {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      /* min-height: 250px;
+      width: 450px; */
+      border-radius: 1rem;
+      background: rgb(255, 255, 255, 0.3);
+      padding: 1.5rem;
+      /* color: #fff; */
 }
