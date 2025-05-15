@@ -14,7 +14,7 @@ const Accordian = ({title, message, number}) => {
               onClick={() => setIsActive(!isActive)}
             >
                 <div className="flex gap-x-10">
-                    <div className="text-xl font-semibold text-[#2405F2]">{number}</div>
+                    <div className="text-xl font-semibold text-white">{number}</div>
                     <div className="text-lg font-medium">{title}</div>
                 </div>
               <div>{isActive ? "-" : "+"}</div>
